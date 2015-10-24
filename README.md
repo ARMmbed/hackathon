@@ -25,11 +25,12 @@ Please submit a pull request against this repository to have your project linked
 - ARM mbed Bluetooth Low Energy [example applications](https://github.com/ARMmbed/ble-examples)
 
 ### Helpful Links
-- [yotta](http://yottadocs.mbed.com/): distributed software package management for embedded devices -- share your own modules!
+- [yotta](http://yottadocs.mbed.com/): distributed software package management for embedded devices -- publish your own modules!
+- [BLE Getting Started Docs](https://docs.mbed.com/docs/ble-intros/en/latest/): documentation to get you started with mbed BLE. **Please give us feedback on these docs! Write it down, or tell Irit Arkin, Jonny Austin, Andres Amaya Garcia or some other ARM person**
 - [Compiler](https://launchpad.net/gcc-arm-embedded): Embedded GNU-GCC ARM compiler toolchain (maintained by ARM);
 - [BLEnano](http://redbearlab.com/blenano/): the hardware platform for this hackathon;
 - [Evothings for mbed](https://evothings.com/things/mbed): connects your Bluetooth devices to the internet through your phone.
-- [BLE](https://docs.mbed.com/docs/ble-intros/en/latest/): documentation to get you started with mbed BLE.
+
 
 ### Virtual Development Machine Environment
 Download a virtual machine image of our [Fedora Linux Development Environment](http://get.meriac.com/ARMmbed.zip) with pre-installed mbed development environment and yotta based on Fedora Workstation (FC22). **You don't need this image if you plan to run [yotta](http://yottadocs.mbed.com/) and [ARM-GCC](https://launchpad.net/gcc-arm-embedded) natively**. For running this image on your machine, please download [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0).
@@ -50,3 +51,13 @@ Our Theme -- Wearables:
 - Food and drinks will also be provided.
 
 This event is not a competition but a party. It is completely free of charge, a great place to meet new, like-minded people and all about having fun!
+
+### Showcase at Makespace Cambridge
+
+On Thursday 29th October, Makespace is running a Showcase event at [http://makespace.org/]Makespace - the Cambridge Hackspace/Makerspace.
+
+All participants from the Hackathon have a free ticket to exhibit, and this event is part of the Festival of Ideas, so there will be a wide audience from both Cambridge University and the town.
+
+[http://www.meetup.com/Makespace/events/225955983/] Please sign up to come to the event, whether you want to come and see the Makespace showcase or to show off the cool things you've made!
+
+
