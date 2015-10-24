@@ -27,9 +27,16 @@ Please submit a pull request against this repository to have your project linked
 ### Helpful Links
 - [Yotta](http://yottadocs.mbed.com/): distributed software package management for embedded devices - share your own modules!
 - [Compiler](https://launchpad.net/gcc-arm-embedded): Embedded GNU-GCC ARM compiler toolchain (maintained by ARM).
-- [Development Environment](http://get.meriac.com/ARMmbed.zip): Download virtual machine with pre-installed [mbed development environment and Yotta](http://get.meriac.com/ARMmbed.zip) based on Fedora Workstation (FC22). **You don't need this image if you plan to run [Yotta](http://yottadocs.mbed.com/) and [ARM-GCC](https://launchpad.net/gcc-arm-embedded) natively**. For running this image on your machine, please download [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0).
 - [BLEnano](http://redbearlab.com/blenano/): the hardware platform for this hackathon.
 - [Evothings for mbed](https://evothings.com/things/mbed): connects your BLuetooth devices to the internet through your phone.
+
+### Virtual Development Machine Environment
+Download a virtual machine image of our [Fedora Linux Development Environment](http://get.meriac.com/ARMmbed.zip) with pre-installed mbed development environment and Yotta based on Fedora Workstation (FC22). **You don't need this image if you plan to run [Yotta](http://yottadocs.mbed.com/) and [ARM-GCC](https://launchpad.net/gcc-arm-embedded) natively**. For running this image on your machine, please download [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0).
+
+You need to perform these post-installation steps when running the downloaded VMware image the first time:
+```bash
+sudo ln -s /usr/bin/ninja /usr/bin/ninja-build
+```
 
 ### What should you expect from the hackathon?
 
