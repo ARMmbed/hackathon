@@ -42,7 +42,7 @@ Depending on the example, there are specific ways to see if it is working. For t
 Final Notes
 -----------
 
-If you create a new application please remember to include this line in your `module.son` file:
+If you create a new application please remember to include this line in your `module.json` file:
 ```json
 "mbed-hal-nrf51822-mcu": "AlessandroA/mbed-hal-nrf51822-mcu#1.1.1",
 ```
