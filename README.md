@@ -13,13 +13,13 @@ Thanks to everybody for making this event possible:
 You are invited add links and documentation to your designs to [our wiki pages](https://github.com/ARMmbed/hackathon/wiki) or to this page - just sign up with your github account and start editing.
 
 How to sign up for the prizes:
-- add links to documentation of your design to the list of [Active Projects](#Active_Projects) below
+- add links to documentation of your design to the list of [Active Projects](#active-projects) below
   - one or more photos/screenshots/sketches of your project
   - one paragraph describing your solution
   - quality of the documentation and material matters: start early
   - submission deadline is Sunday the 25th at noon (12:00)
 
-Please submit a pull request against this repository to have your project linked in the project list bwlow:
+Please submit a pull request against this repository to have your project linked in the project list below:
 
 ### Active Projects
 - ARM mbed Bluetooth Low Energy [example applications](https://github.com/ARMmbed/ble-examples)
