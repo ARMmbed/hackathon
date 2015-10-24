@@ -54,10 +54,10 @@ This event is not a competition but a party. It is completely free of charge, a 
 
 ### Showcase at Makespace Cambridge
 
-On Thursday 29th October, Makespace is running a Showcase event at [http://makespace.org/](Makespace) - the Cambridge Hackspace/Makerspace.
+On Thursday 29th October, Makespace is running a Showcase event at [Makespace](http://makespace.org/) - the Cambridge Hackspace/Makerspace.
 
 All participants from the Hackathon have a free ticket to exhibit, and this event is part of the Festival of Ideas, so there will be a wide audience from both Cambridge University and the town.
 
-[http://www.meetup.com/Makespace/events/225955983/](Here's the event page on meetup). Please sign up to come to the event, whether you want to come and see the Makespace showcase or to show off the cool things you've made!
+[Here's the event page on meetup](http://www.meetup.com/Makespace/events/225955983/). Please sign up to come to the event, whether you want to come and see the Makespace showcase or to show off the cool things you've made!
 
 
