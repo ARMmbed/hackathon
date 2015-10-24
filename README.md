@@ -25,10 +25,11 @@ Please submit a pull request against this repository to have your project linked
 - ARM mbed Bluetooth Low Energy [example applications](https://github.com/ARMmbed/ble-examples)
 
 ### Helpful Links
-- [Evothings for mbed](https://evothings.com/things/mbed): connects your BLuetooth devices to the internet through your phone
 - [Yotta](http://yottadocs.mbed.com/): distributed software package management for embedded devices - share your own modules!
-- [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0): for running a pre-cooked virtul machine of the mbed development environment on your machine
-- [BLEnano](http://redbearlab.com/blenano/): the hardware platform for this hackathon
+- Development: Download virtual machine with pre-installed [mbed development environment and Yotta](http://get.meriac.com/ARMmbed.zip) based on [Fedora Workstation](https://getfedora.org/en/workstation/) (FC22). For running this image on your machine, please download [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0).
+- [Compiler](https://launchpad.net/gcc-arm-embedded): Embedded GNU-GCC ARM compiler toolchain (maintained by ARM).
+- [BLEnano](http://redbearlab.com/blenano/): the hardware platform for this hackathon.
+- [Evothings for mbed](https://evothings.com/things/mbed): connects your BLuetooth devices to the internet through your phone.
 
 ### What should you expect from the hackathon?
 
