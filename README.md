@@ -37,7 +37,7 @@ Download a virtual machine image of our [Fedora Linux Development Environment](h
 
 You need to perform these post-installation steps when running the downloaded VMware image for the first time:
 ```bash
-sudo ln -s /usr/bin/ninja /usr/bin/ninja-build
+sudo ln -s /usr/bin/ninja-build /usr/bin/ninja
 ```
 
 ### What should you expect from the hackathon?
