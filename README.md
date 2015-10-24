@@ -22,7 +22,7 @@ How to sign up for the prizes:
 Please submit a pull request against this repository to have your project linked in the project list below:
 
 ### Active Projects
-- ARM mbed Bluetooth Low Energy [example applications](https://github.com/ARMmbed/ble-examples)
+- ARM mbed Bluetooth Low Energy [example applications](https://github.com/ARMmbed/ble-examples/tree/hackathon); **note**: check out [these instructions](START.md) to start building the examples on the RedBearLab BLE nano device!
 
 ### Helpful Links
 - [yotta](http://yottadocs.mbed.com/): distributed software package management for embedded devices -- publish your own modules!
