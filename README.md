@@ -10,7 +10,7 @@ Thanks to everybody for making this event possible:
 - [Nordic Semiconductors](https://www.mbed.com/en/partners/nordic/) for their [nRF51822 SoC](http://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822) Bluetooth Low Energy chip that is the heart of [BLEnano](http://redbearlab.com/blenano/) and many other IoT wearable products.
 
 ## Contributions & Prize Jury
-You are invited add links and documentation to your designs to [our wiki pages](https://github.com/ARMmbed/hackathon/wiki) or to this page - just sign up with your github account and start editing.
+You are invited add an introduction to your design and links to [our wiki pages](https://github.com/ARMmbed/hackathon/wiki) or to this page. Please sign up with your github account and start editing!
 
 How to sign up for the prizes:
 - add links to documentation of your design to the list of [Active Projects](#active-projects) below
