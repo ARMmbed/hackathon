@@ -29,6 +29,7 @@ Please submit a pull request against this repository to have your project linked
 - [Compiler](https://launchpad.net/gcc-arm-embedded): Embedded GNU-GCC ARM compiler toolchain (maintained by ARM);
 - [BLEnano](http://redbearlab.com/blenano/): the hardware platform for this hackathon;
 - [Evothings for mbed](https://evothings.com/things/mbed): connects your Bluetooth devices to the internet through your phone.
+- [BLE](https://docs.mbed.com/docs/ble-intros/en/latest/): documentation to get you started with mbed BLE.
 
 ### Virtual Development Machine Environment
 Download a virtual machine image of our [Fedora Linux Development Environment](http://get.meriac.com/ARMmbed.zip) with pre-installed mbed development environment and yotta based on Fedora Workstation (FC22). **You don't need this image if you plan to run [yotta](http://yottadocs.mbed.com/) and [ARM-GCC](https://launchpad.net/gcc-arm-embedded) natively**. For running this image on your machine, please download [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0).
