@@ -46,7 +46,7 @@ At this ARM sponsored event you bring your laptop and get the opportunity to use
 
 Our Theme -- Wearables:
 - The aim is to create an electronic device that uses the ARM mbed IoT Device Platform to develop a wearable product;
-- Teams will have 24 hours to create their device;
+- Teams will have ~~24~~ 25 hours (the clocks go back) to create their device;
 - Prizes will be given at the end for the best designs;
 - Food and drinks will also be provided.
 
