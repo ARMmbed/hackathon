@@ -24,6 +24,12 @@ Please submit a pull request against this repository to have your project linked
 ### Active Projects
 - ARM mbed Bluetooth Low Energy [example applications](https://github.com/ARMmbed/ble-examples)
 
+### Helpful Links
+- [Evothings for mbed](https://evothings.com/things/mbed): connects your BLuetooth decies to the internet through your phone
+- [Yotta](http://yottadocs.mbed.com/): distributed software package management for embedded devices - share your own modules!
+- [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0): for running a pre-cooked virtul machine of the mbed development environment on your machine
+- [BLEnano](http://redbearlab.com/blenano/): the hardware platform for this hackathon
+
 ### What should you expect from the hackathon?
 
 At this ARM sponsored event you bring your laptop and get the opportunity to use ARM mbed microcontrollers, sensors, explore the ARM mbed OS, ARM device servers and other products in the mbed eco-system. ARM engineers will teach participants how to get started with the mbed platform and be on-site for support throughout the event.
