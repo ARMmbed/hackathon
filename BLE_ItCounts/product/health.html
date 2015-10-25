@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+Description:
+
+	Example for creating a custom GATT encoding with mbed BLE device.
+
+Requirements:
+
+	An mbed enabled BLE platform running the code from:
+	http://developer.mbed.org/teams/Bluetooth-Low-Energy/code/BLE_GATT_Example/
+
+Credits:
+
+	ARM mbed [-_-]~
+
+	http://mbed.org
+-->
+<html>
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no
+		initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+	<title>Health Measurement</title>
+
+	<style>
+		@import 'ui/css/evothings-app.css';
+	</style>
+
+	<style>
+		#connectButton {
+			width: 60%;
+			float: middle;
+		}
+
+		#deviceName {
+			width: 100%;
+			display: block;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+	</style>
+
+	<script>
+	// Redirect console.log to Evothings Workbench.
+	if (window.hyper && window.hyper.log) { console.log = hyper.log }
+	</script>
+
+
+	<script src="cordova.js"></script>
+	<script src="libs/jquery/jquery.js"></script>
+	<script src="libs/evothings/evothings.js"></script>
+	<script src="libs/evothings/easyble/easyble.js"></script>
+	<script src="health.js"></script>
+
+
+</head>
+
+<body ontouchstart=""><!-- ontouchstart="" enables low-delay CSS transitions. -->
+	<header>
+		<button class="back" onclick="history.back()">
+			<img src="ui/images/arrow-left.svg" />
+		</button>
+		<img class="logotype" src="ui/images/header.jpg" alt="Evothings" />
+	</header>
+
+
+<div id="connectView">
+
+	<h1>Health Measurement</h1>
+
+	<h2>Enter name of device that you want to connect</h2>
+
+	<input id="deviceName" value="Device Name" type="text" />
+
+	<button id="connectButton" class="blue" onclick="app.onConnectButton()">
+		Connect
+	</button>
+
+	<p id="info">Not Connected</p>
+</div>
+
+
+<div id="selectView">
+	<h3> Connect first if you want us to remember your data XD </h3>
+	<h1> Choose what you will do for record </h1>
+
+	<button id="humpback" class="red" onclick="app.OnHumpback()">
+	    Humpback? ! 
+	</button>
+	<div id="1a">
+		<div id="flexW"> you'are in the right position:) </div>
+
+	</div>
+
+	<button id="steps" class="red" onclick="app.OnSteps()">
+	    Step Counting 
+	</button>
+	<div id="2a">
+		<div id="step"> you have walked 0 step. </div>
+		<div id="stepCalories"> you have burned 0 calory. </div>
+	</div>
+
+	<button id="pushUps" class="red" onclick="app.OnPushUps()">
+		Push-Up Counting
+	</button>
+	<div id="3a">
+		<div id="push-up"> you have done 0 push-up. </div>
+	</div>
+
+	<button id="rowings" class="red" onclick="app.OnRowings()">
+		Rowing Counting
+	</button>
+	<div id="4a">
+		<div id="rowing"> you have done 0 rowing action. </div>
+	</div>
+
+
+	
+</div>
+
+</body>
+
+</html>

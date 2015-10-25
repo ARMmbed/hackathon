@@ -1,0 +1,42 @@
+{
+  "name": "mbed-drivers",
+  "version": "0.11.1",
+  "description": "mbed SDK",
+  "keywords": [
+    "mbed",
+    "mbed-official"
+  ],
+  "author": "Bogdan Marinescu <bogdan.marinescu@arm.com>",
+  "repository": {
+    "url": "git@github.com:ARMmbed/mbed-drivers.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/mbed-drivers",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "extraIncludes": [
+    "mbed"
+  ],
+  "dependencies": {
+    "mbed-hal": "^1.0.0",
+    "cmsis-core": "^1.0.0",
+    "ualloc": "^1.0.0",
+    "minar": "^1.0.0",
+    "core-util": "^1.0.0",
+    "compiler-polyfill": "^1.1.0"
+  },
+  "targetDependencies": {},
+  "scripts": {
+    "testReporter": [
+      "mbedgt",
+      "--digest",
+      "stdin",
+      "-v",
+      "-V"
+    ]
+  }
+}

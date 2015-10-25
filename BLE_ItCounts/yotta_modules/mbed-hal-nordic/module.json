@@ -1,0 +1,26 @@
+{
+  "name": "mbed-hal-nordic",
+  "version": "1.0.0",
+  "description": "mbed low-level Hardware Abstraction Layer implementation for Nordic microcontrollers",
+  "keywords": [
+    "nordic",
+    "mbed",
+    "HAL",
+    "mbed-official"
+  ],
+  "author": "Austin Blackstone <austin.blackstone@arm.com>",
+  "repository": {
+    "url": "git@github.com:ARMmbed/mbed-hal-nordic.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/mbed-hal-nordic",
+  "license": "Apache-2",
+  "dependencies": {
+    "mbed-hal": "*"
+  },
+  "targetDependencies": {
+    "nrf51822": {
+      "mbed-hal-nrf51822-mcu": "^1.0.0"
+    }
+  }
+}
