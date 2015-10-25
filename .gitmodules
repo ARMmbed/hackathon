@@ -1,0 +1,3 @@
+[submodule "ConnectClothing/sources"]
+	path = ConnectClothing/sources
+	url = git@github.com:matwx/CUES-Hackathon.git
