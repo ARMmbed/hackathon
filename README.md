@@ -25,6 +25,7 @@ Please submit a pull request against this repository to have your project linked
 - ARM mbed Bluetooth Low Energy [example applications](https://github.com/ARMmbed/ble-examples/tree/hackathon); **note**: check out [these instructions](START.md) to start building the examples on the RedBearLab BLE nano device!
 - [IoT-enabled Wearable SmartBin](SmartBin)
 - [The Slouch-o-meter](slouchometer)
+- [Bicycle Turn Indicator](teamAkos)
 
 ### Helpful Links
 - [yotta](http://yottadocs.mbed.com/): distributed software package management for embedded devices -- publish your own modules!
