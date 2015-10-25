@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--
+Description:
+
+	Example for creating a custom GATT encoding with mbed BLE device.
+
+Requirements:
+
+	An mbed enabled BLE platform running the code from:
+	http://developer.mbed.org/teams/Bluetooth-Low-Energy/code/BLE_GATT_Example/
+
+Credits:
+
+	ARM mbed [-_-]~
+
+	http://mbed.org
+-->
+<html>
+
+<head>
+	<script>var Page=0;</script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no
+		initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+	<title>Internet of Bins Wearable SmartBin</title>
+
+	<style>
+		@import 'ui/css/evothings-app.css';
+	</style>
+
+	<style>
+		h1 {color:green}
+	</style>
+
+	
+
+	<style>
+		#connectButton {
+			width: 49%;
+			float: left;
+		}
+
+		#recordButton {
+			width: 49%;
+			float: right;
+		}
+
+		#deviceName {
+			width: 100%;
+			display: block;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		#IP {
+			width: 100%;
+			display: block;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+	</style>
+
+	<script>
+	// Redirect console.log to Evothings Workbench.
+	if (window.hyper && window.hyper.log) { console.log = hyper.log }
+	</script>
+
+	<script src="cordova.js"></script>
+	<script src="libs/jquery/jquery.js"></script>
+	<script src="libs/evothings/evothings.js"></script>
+	<script src="libs/evothings/easyble/easyble.js"></script>
+	<script src="index.js"></script>
+	<script src="app.js"></script>
+
+	
+  <script type="text/javascript">
+
+	app.drawGraph();
+  </script>
+
+
+</head>
+
+<body ontouchstart=""><!-- ontouchstart="" enables low-delay CSS transitions. -->
+	<header>
+		<button class="back" onclick="history.back()">
+			<img src="ui/images/arrow-left.svg" />
+		</button>
+		<img class="logotype" src="ui/images/logo.svg" alt="Evothings" />
+	</header>
+	
+
+<img id="image1" src="logo.png" align = "right" height="42" width="42" onclick="app.refresh()">
+
+  
+	
+	
+	<h1>IoBins</h1>
+	
+	<h2 id="header1">Enter name of your BLE device</h2>
+
+	<input id="deviceName" value="IoBins" type="text" />
+
+	<h2 id="header1">Enter address of your tweet server</h2>
+
+	<input id="IP" value="172.20.10.2:8080" type="text" />
+
+	<button id="connectButton" class="blue" onclick="app.onConnectButton()">
+		Connect
+	</button>
+
+	<button id="recordButton" class="red" onclick="app.onRecordButton()">
+		Record
+	</button>
+
+	<p id="info">Not Connected</p>
+
+	<h2 id="header2">Info</h2>
+
+	<p id="paragraph1">
+		Enter the name of your mbed compatible BLE board and tap Connect.
+		
+	</p>
+
+	<p id="paragraph2">
+		This app is paired with the
+		<a href="http://developer.mbed.org/teams/Bluetooth-Low-Energy/code/BLE_GATT_Example/">
+		custom GATT mbed code</a>.
+		Connect to the wearable IoT-enabled SmartBin of your choice, and see how 		you compare to the rest of the world. Find out if you are an eco-warrior… 		or an eco-catastrophe!
+	</p>
+
+
+	<br>	
+    <div id="linechart_material" align = "center" ></div>
+
+    <p id="paragraph3"><font size="2" color="blue"><b>Daily waste weight (kg)</b></font><br>
+    <font size="2" color="red"><b>Personal average (kg)</b></font><br>
+    <font size="2" color="orange"><b>World average (kg)</b></font></p>
+    <p id="paragraph4"><font size="6" color="green"><b>Bin is not full &#60;3 </b></font></p>
+    <p id="paragraph5"><font size="6" color="red"><b> Bin is full &#60;&#47;3 </b></font></p>
+<p id = "paragraph6" align = "center"><font size="6" color="black" ><b>Statistics</b></font></p>
+    <table id="table1" width= 100%>
+	<tr height="80">
+    		<th ><b>Ranking:</b></th>
+    		<td align = "center">Eco-God</td>
+	</tr>
+	<tr height="80">
+		<th><b>Average density of your rubbish:</b></th> 
+		<td align = "center">200 kg/m^3</td> 
+	</tr>
+	<tr height="80">
+    		<th><b>Average time to fill a SmartBin:</b></th>
+		<td align = "center">1 day</td>
+	</tr>
+	<tr height="80">
+		<th><b>Age of the SmartBin:</b></th>
+		<td align = "center">10 day</td>
+  	</tr>
+</table>
+
+    <button id="button1" type="button" onclick="app.refresh2()">More Stats</button>
+</body>
+
+    <button id="button2" type="button" onclick="app.refresh3()">Back</button>
+</body>
+
+</html>
