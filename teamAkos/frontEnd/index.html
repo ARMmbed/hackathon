@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--
+Description:
+
+	Example for creating a custom GATT encoding with mbed BLE device.
+
+Requirements:
+
+	An mbed enabled BLE platform running the code from:
+	http://developer.mbed.org/teams/Bluetooth-Low-Energy/code/BLE_GATT_Example/
+
+Credits:
+
+	ARM mbed [-_-]~
+
+	http://mbed.org
+-->
+<html>
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no
+		initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+	<title>Turn Indicator</title>
+
+	<style>
+		@import 'ui/css/evothings-app.css';
+	</style>
+
+	<style>
+    h1 {
+      text-align: center;
+      margin: 20px 10px;
+    }
+
+		#connectButton {
+			width: 90%;
+      display: block;
+      margin: 5px auto;
+      margin-bottom: 30px;
+		}
+
+		#leftButton {
+			width: 49%;
+      height: 60px;
+      float: left;
+		}
+
+    #rightButton {
+      width: 49%;
+      height: 60px;
+      float: right;
+    }
+
+    #brakeButton {
+      width: 90%;
+      height: 60px;
+      display: block;
+      margin: 5px auto;
+    }
+
+		#deviceName {
+			width: 100%;
+			display: block;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+    @-webkit-keyframes .blink {
+      from {
+          opacity: 1.0;
+      }
+      to {
+          opacity: 0.0;
+      }
+    }
+    .blink {
+        -webkit-animation-name: blink;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0);
+        -webkit-animation-duration: 1s;
+    }
+
+	</style>
+
+	<script>
+	// Redirect console.log to Evothings Workbench.
+	if (window.hyper && window.hyper.log) { console.log = hyper.log }
+	</script>
+
+	<script src="cordova.js"></script>
+	<script src="libs/jquery/jquery.js"></script>
+	<script src="libs/evothings/evothings.js"></script>
+	<script src="libs/evothings/easyble/easyble.js"></script>
+	<script src="app.js"></script>
+
+</head>
+
+<body ontouchstart=""><!-- ontouchstart="" enables low-delay CSS transitions. -->
+	<header>
+		<button class="back" onclick="history.back()">
+			<img src="ui/images/arrow-left.svg" />
+		</button>
+		<img class="logotype" src="ui/images/logo.svg" alt="Evothings" />
+	</header>
+
+	<h1>Turn Indicator</h1>
+
+	<h2>Enter name of your BLE device</h2>
+
+	<input id="deviceName" value="ChangeMe!!" type="text" />
+
+	<button id="connectButton" class="blue" onclick="app.onConnectButton()">
+		Connect
+	</button>
+
+  <p id="info">Not Connected</p>
+
+	<button id="leftButton" class="grey" onclick="toggleLeft()">
+		Left
+	</button>
+
+  <button id="rightButton" class="grey" onclick="toggleRight()">
+    Right
+  </button>
+
+  <button id="brakeButton" class="grey" onclick="toggleBrake()">
+    Brake
+  </button>
+	
+<script>
+
+  var leftToggled = false;
+  var rightToggled = false;
+  var brakeToggled = false;
+
+  function toggleLeft() {
+    if (leftToggled) {
+      $('#leftButton').removeClass('yellow');
+      $('#leftButton').addClass('grey');
+      $('#leftButton').removeClass('blink_me');
+    }
+    else {
+      $('#leftButton').removeClass('grey');
+      $('#leftButton').addClass('yellow');
+      $('#leftButton').addClass('blink_me');
+    }
+    leftToggled = !leftToggled;
+    app.onToggleButton(4);
+  }
+
+  function toggleRight() {
+    if (rightToggled) {
+      $('#rightButton').removeClass('yellow');
+      $('#rightButton').addClass('grey');
+      $('#rightButton').removeClass('blink_me');
+    }
+    else {
+      $('#rightButton').removeClass('grey');
+      $('#rightButton').addClass('yellow');
+      $('#rightButton').addClass('blink_me');
+    }
+    rightToggled = !rightToggled;
+    app.onToggleButton(1);
+  }
+
+  function toggleBrake() {
+    if (brakeToggled) {
+      $('#brakeButton').removeClass('red');
+      $('#brakeButton').addClass('grey');
+    }
+    else {
+      $('#brakeButton').removeClass('grey');
+      $('#brakeButton').addClass('red');
+    }
+    brakeToggled = !brakeToggled;
+    app.onToggleButton(2);
+    PlaySound("audio");
+  }
+
+  function toggleSettings() {
+
+  }
+
+  function blinker() {
+    $('.blink_me').fadeOut(400).fadeIn(400);
+  }
+  setInterval(blinker, 800);
+
+</script>
+
+</body>
+
+</html>
