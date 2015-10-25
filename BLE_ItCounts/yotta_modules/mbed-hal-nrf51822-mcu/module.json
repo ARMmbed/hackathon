@@ -1,0 +1,55 @@
+{
+  "name": "mbed-hal-nrf51822-mcu",
+  "version": "1.1.1",
+  "description": "mbed HAL for Nordic nRF51822 MCUs",
+  "keywords": [
+    "mbed",
+    "hal",
+    "nrf51822",
+    "nordic",
+    "mbed-official"
+  ],
+  "author": "austin.blackstone@arm.com",
+  "repository": {
+    "url": "https://github.com/ARMmbed/mbed-hal-nrf51822-mcu.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/mbed-hal-nrf51822-mcu",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "extraIncludes": [
+    "mbed-hal-nrf51822-mcu",
+    "mbed-hal-nrf51822-mcu/lib/nordic_sdk/components/libraries/scheduler",
+    "mbed-hal-nrf51822-mcu/lib/nordic_sdk/components/libraries/util",
+    "mbed-hal-nrf51822-mcu/lib/nordic_sdk/components/libraries/crc16"
+  ],
+  "dependencies": {
+    "mbed-hal-nordic": "*",
+    "cmsis-core": "*",
+    "ble-nrf51822": "*"
+  },
+  "targetDependencies": {
+    "bbcmicro": {
+      "mbed-hal-bbcmicro": "~0.0.1"
+    },
+    "seeedtinyble": {
+      "mbed-hal-seeedtinyble": "~0.0.1"
+    },
+    "mkit": {
+      "mbed-hal-mkit": "^1.0.0"
+    },
+    "blenano": {
+      "mbed-hal-blenano": "^1.0.0"
+    },
+    "nrf51dk": {
+      "mbed-hal-nrf51dk": "^1.0.0"
+    },
+    "watch-ble-nrf51": {
+      "mbed-hal-watch-ble-nrf51": "^1.0.0"
+    }
+  }
+}

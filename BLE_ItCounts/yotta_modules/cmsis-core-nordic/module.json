@@ -1,0 +1,26 @@
+{
+  "name": "cmsis-core-nordic",
+  "version": "1.0.1",
+  "description": "CMSIS Core Implementation for Nordic MCUs",
+  "keywords": [
+    "cmsis",
+    "nordic",
+    "mbed",
+    "mbed-official"
+  ],
+  "author": "Austin Blackstone <austin.blackstone@arm.com>",
+  "repository": {
+    "url": "git@github.com:ARMmbed/cmsis-core-nordic.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/cmsis-core-nordic",
+  "license": "Apache-2",
+  "dependencies": {
+    "cmsis-core": "*"
+  },
+  "targetDependencies": {
+    "nrf51822": {
+      "cmsis-core-nrf51822": "^1.0.0"
+    }
+  }
+}
