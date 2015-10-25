@@ -4,6 +4,8 @@ IoT Enabled Wearable SmartBin
 The Project
 -----------
 
+[Watch on YouTube](https://youtu.be/SBOjNBrmgJc)
+
 We developed a Bluetooth Low-Energy based Smart Bin, which measures the mass and volume of rubbish contained inside.
 
 ![original idea](img/original_idea.jpg)
