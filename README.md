@@ -26,6 +26,7 @@ Please submit a pull request against this repository to have your project linked
 - [IoT-enabled Wearable SmartBin](SmartBin)
 - [The Slouch-o-meter](slouchometer)
 - [Bicycle Turn Indicator](teamAkos)
+- [Rowbot: Personalized Rowing Advice](https://github.com/tomas-c/rowbot/blob/master/README.md)
 
 ### Helpful Links
 - [yotta](http://yottadocs.mbed.com/): distributed software package management for embedded devices -- publish your own modules!
