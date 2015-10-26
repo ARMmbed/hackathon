@@ -37,7 +37,7 @@ Please submit a pull request against this repository to have your project linked
 
 
 ### Virtual Development Machine Environment
-Download a virtual machine image of our [Fedora Linux Development Environment](http://get.meriac.com/ARMmbed.zip) with pre-installed mbed development environment and yotta based on Fedora Workstation (FC22). **You don't need this image if you plan to run [yotta](http://yottadocs.mbed.com/) and [ARM-GCC](https://launchpad.net/gcc-arm-embedded) natively**. For running this image on your machine, please download [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0).
+Download a virtual machine image of our [mbed development environment](http://get.meriac.com/ARMmbed.zip) with pre-installed mbed development environment and yotta based on Fedora Workstation (FC22). **You don't need this image if you plan to run [yotta](http://yottadocs.mbed.com/) and [ARM-GCC](https://launchpad.net/gcc-arm-embedded) natively**. For running this image on your machine, please download [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0).
 
 You need to perform these post-installation steps when running the downloaded VMware image for the first time:
 ```bash
